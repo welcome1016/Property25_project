@@ -89,7 +89,9 @@ DESC
 
 --QUESTION 19.Which cities appear to have the most affordable housing?
 SELECT TOP 20 CITY, PROVINCE, PROPERTY_PRICE 
-FROM property_Info;
+FROM property_Info
+ORDER BY Min_Gross_Monthly_Income
+ASC
 
 --Question 20.. What minimum income is typically required for properties priced above R4,000,000?
 --3 solutions where provided
