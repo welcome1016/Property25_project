@@ -1,4 +1,5 @@
---FIRST HOMEWORK
+
+  --FIRST HOMEWORK
 --QUESTION 1  Display all properties in the database.
 SELECT* FROM property_Info
 
@@ -53,7 +54,7 @@ SELECT TOP 10 * FROM property_Info ORDER BY FLOOR_SIZE
 SELECT TOP 1 * FROM property_Info ORDER BY PROPERTY_PRICE DESC
 
 --QUESTION 19.Which cities appear to have the most affordable housing?
-SELECT TOP 20 CITY, PROVINCE, PROPERTY_PRICE *FROM property_Info;
+SELECT TOP 20 CITY, PROVINCE, PROPERTY_PRICE FROM property_Info;
 
 --Question 20.. What minimum income is typically required for properties priced above R4,000,000?
 SELECT*FROM property_Info WHERE PROPERTY_PRICE >=4000000
@@ -61,12 +62,12 @@ SELECT*FROM property_Info WHERE PROPERTY_PRICE >=4000000
 
 SELECT*FROM property_Info 
 WHERE PROPERTY_PRICE >=4000000
-ORDER BY Min_Gross_Monthly_Income ASC
+ORDER BY Min_Gross_Monthly_Income asc
 
 SELECT TOP 1 Min_Gross_Monthly_Income 
 FROM property_Info
 WHERE PROPERTY_PRICE>4000000;
 
-SELECT MIN(MIN_GROSS_MOTHLY_INCOME)
-*FROM property_Info
-WHERE 
+SELECT MIN(Min_Gross_Monthly_Income )
+FROM property_Info
+WHERE PROPERTY_PRICE >=400000;
