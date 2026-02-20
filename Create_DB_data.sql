@@ -36,3 +36,21 @@ VALUES	( 'South Africa','Gauteng','Sandton', 1000000, 4, 2, 1, 150, 13000, 30000
 
 --KWAZULU-NATAL
 		('South Africa', 'Kwazulu-Natal', 'Kwamashu', 100000, 2, 1, 1, 80, 11000, 13000,26000);
+		('South Africa', 'Mpumalanga', 'Malelane', 1200000, 6, 3, 2, 100, 15000, 19000,35000),
+		('South Africa', 'Mpumalanga', 'Komartiport', 1800000, 10, 3, 2, 100, 25000, 21000,45000),
+		('South Africa', 'Mpumalanga', 'Kwanyamazane', 1100000, 6, 4, 3, 130, 13000, 15000,30000),
+		('South Africa', 'Mpumalanga', 'Nelspruit', 100000, 5, 2, 1, 110, 15000, 11000,31000),
+
+
+
+		('South Africa', 'Mpumalanga', 'Malelane', 1200000, 6, 3, 2, 100, 15000, 19000,35000),
+		('South Africa', 'Mpumalanga', 'Komartiport', 1800000, 10, 3, 2, 100, 25000, 21000,45000),
+		('South Africa', 'Mpumalanga', 'Kwanyamazane', 1100000, 6, 4, 3, 130, 13000, 15000,30000),
+		('South Africa', 'Mpumalanga', 'Nelspruit', 100000, 5, 2, 1, 110, 15000, 11000,31000),
+
+
+
+		('South Africa', 'Mpumalanga', 'Malelane', 1200000, 6, 3, 2, 100, 15000, 19000,35000),
+		('South Africa', 'Mpumalanga', 'Komartiport', 1800000, 10, 3, 2, 100, 25000, 21000,45000),
+		('South Africa', 'Mpumalanga', 'Kwanyamazane', 1100000, 6, 4, 3, 130, 13000, 15000,30000),
+		('South Africa', 'Mpumalanga', 'Nelspruit', 100000, 5, 2, 1, 110, 15000, 11000,31000),
